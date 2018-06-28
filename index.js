@@ -32,6 +32,10 @@ class Trip {
     store.trips.push(this);
   };
 
+  setPassenger(passenger) {
+    this.passengerId = passenger.id
+  };
+
 
   passenger(){
     console.log(store.passengers[0]);
