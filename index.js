@@ -20,8 +20,9 @@ class Driver {
 //returns all of the passengers that a driver has taken on a trip
   //const map1 = array1.map(x => x * 2);
   passengers(){
-    this.trips().map(function(trip){
+    let answer = this.trips().map(function(trip){
       driversPassengers.push(trip.passenger())};
+    return answer
 /*
     let driversPassengers = [];
     this.trips().forEach(function(trip){
