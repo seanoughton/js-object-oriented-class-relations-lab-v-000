@@ -27,8 +27,8 @@ class Driver {
     this.trips().forEach(function(trip){
       driversPassengers.push(trip.passenger())
     });
-    return driversPassengers;
-  };*/
+    return driversPassengers; */
+  };
 };
 
 class Passenger {
