@@ -33,9 +33,10 @@ class Trip {
   };
 
   passenger(){
-    let answer = store.passengers.find(function(passenger){
-      return 1 === 1;
+    let answer = store.passengers.filter(item => {
+
     });
+
     return answer;
     //return store.passengers.find(function(passenger) {
       //return passenger.id === this.passengerId
