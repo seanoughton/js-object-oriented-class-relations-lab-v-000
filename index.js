@@ -41,7 +41,7 @@ class Trip {
       //return element > 10;
 
     return store.passengers.find(function(passenger){
-      return passenger.id > 18;
+      return passenger.id > 17;
     });
     //return store.passengers.find(function(passenger) {
       //return passenger.id === this.passengerId
