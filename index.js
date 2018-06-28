@@ -22,7 +22,7 @@ class Driver {
 //go through all of those trips and pull out the passenger,return the passenger for each trip
 
   passengers(){
-    return store.passengers;//filter this where store.trips
+    return this.trips();
   };
 };
 
