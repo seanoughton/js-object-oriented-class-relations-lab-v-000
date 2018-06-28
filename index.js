@@ -20,7 +20,7 @@ class Driver {
 //returns all of the passengers that a driver has taken on a trip
   //const map1 = array1.map(x => x * 2);
   passengers(){
-    let answer = 0;
+    let answer = this.trips();
     return answer
 /*
     let driversPassengers = [];
