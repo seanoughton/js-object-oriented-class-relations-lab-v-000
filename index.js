@@ -28,7 +28,7 @@ class Driver {
     driversTrips.forEach(function(element){
 
     });
-    console.log(test);
+    console.log(driversPassengers);
     return this.trips();
   };
 };
