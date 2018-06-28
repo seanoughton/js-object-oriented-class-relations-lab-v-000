@@ -34,7 +34,7 @@ class Trip {
 
   passenger(){
     let answer = store.passengers.find(function(){
-      1 === 1;
+      return 1 === 1;
     });
     return answer;
     //return store.passengers.find(function(passenger) {
