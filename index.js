@@ -26,7 +26,7 @@ class Driver {
     let driversTrips = this.trips();
     let driversPassengers = [];
     driversTrips.forEach(function(trip){
-      driversPassengers.push(trip.passenger)
+      driversPassengers.push(trip.passenger())
     });
     console.log(driversPassengers);
     return this.trips();
