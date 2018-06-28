@@ -43,9 +43,9 @@ class Trip {
     //return store.passengers.find(function(passenger){
       //return passenger.id === this.passengerId;
     //});
-    return store.passengers.find(passenger => {
-      return passenger.id === this.passengerId;
-    });
+    //return store.passengers.find(passenger => {
+    //  return passenger.id === this.passengerId;
+    //});
   }
 
 };
