@@ -10,6 +10,7 @@ class Driver {
     store.drivers.push(this);
   };
 
+//returns all of the trips that a driver has taken
   trips(){
     return store.trips.filter(trip => {
       return trip.driverId === this.id
@@ -19,6 +20,7 @@ class Driver {
 //returns all of the passengers that a driver has taken on a trip
 //how does a driver know about passengers => through trips
 //all trips by a driver, each trip contains the driverId and the passengerId
+
   passengers(){
     return store.passengers;//filter this where store.trips
   };
