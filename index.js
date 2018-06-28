@@ -21,8 +21,7 @@ class Driver {
   //const map1 = array1.map(x => x * 2);
   passengers(){
     let answer = this.trips().map(trip => trip.passenger());
-    console.log(answer);
-    return answer
+    return this.trips().map(trip => trip.passenger());
 /*
     let driversPassengers = [];
     this.trips().forEach(function(trip){
