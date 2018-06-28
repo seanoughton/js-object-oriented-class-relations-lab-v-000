@@ -38,11 +38,15 @@ class Trip {
 
 
   passenger(){
+
+    function isPassenger(){
+      
+    };
     //return store.passengers.find(function(passenger){
       //return passenger.id === this.passengerId;
     //});
     return store.passengers.find(passenger => {
-      passenger.id === this.passengerId;
+      return passenger.id === this.passengerId;
     });
   }
 
