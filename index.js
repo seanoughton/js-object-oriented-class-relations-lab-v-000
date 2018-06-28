@@ -36,6 +36,7 @@ class Trip {
     let answer = store.passengers.filter(item => {
       return item.passengerId === this.passengerId;
     });
+    //a trip has a passengerId 
 
     return answer;
     //return store.passengers.find(function(passenger) {
