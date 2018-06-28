@@ -33,9 +33,10 @@ class Trip {
   };
 
   passenger(){
+    return.store.passengers
     //return store.passengers.find(function(passenger) {
       //return passenger.id === this.passengerId
     //});
   };
-  
+
 };
