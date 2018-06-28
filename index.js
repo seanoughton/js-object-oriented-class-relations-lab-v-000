@@ -35,6 +35,11 @@ class Passenger {
       return trip.passengerId === this.id
     })
   };
+
+//returns all of the drivers that has taken a passenger on a trip
+  drivers(){
+
+  };
 };
 
 class Trip {
