@@ -20,7 +20,7 @@ class Driver {
 //returns all of the passengers that a driver has taken on a trip
 //how does a driver know about passengers => through trips
 //all trips by a driver, each trip contains the driverId and the passengerId
-//go through all of those trips and pull out the passenger
+//go through all of those trips and pull out the passenger,return the passenger for each trip
 
   passengers(){
     return store.passengers;//filter this where store.trips
