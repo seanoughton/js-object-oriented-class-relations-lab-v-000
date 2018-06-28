@@ -46,7 +46,7 @@ class Trip {
       return this.passengerId;
     });
 
-    return this.passengerId;
+    return test;
     //return store.passengers.find(function(passenger) {
       //return passenger.id === this.passengerId
     //});
