@@ -16,6 +16,7 @@ class Driver {
     })
   };
 
+//returns all of the passengers that a driver has taken on a trip
   passengers(){
     return store.trip;
   };
