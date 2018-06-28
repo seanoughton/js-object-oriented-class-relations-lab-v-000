@@ -43,10 +43,10 @@ class Trip {
     let test = this.passengerId;
     return store.passengers.find(function(passenger){
       //return passenger.id === 18;
-      return test.passengerId;
+      console.log(this.passengerId);
     });
 
-    
+
     //return store.passengers.find(function(passenger) {
       //return passenger.id === this.passengerId
     //});
