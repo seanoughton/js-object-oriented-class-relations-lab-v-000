@@ -29,7 +29,7 @@ class Driver {
       driversPassengers.push(trip.passenger())
     });
     console.log(driversPassengers);
-    return this.trips();
+    return driversPassengers;
   };
 };
 
