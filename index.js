@@ -22,6 +22,7 @@ class Driver {
 //go through all of those trips and pull out the passenger,return the passenger for each trip
 
   passengers(){
+    //iterate through all of the trips and pull out the passenger for each
     console.log(this.trips());
     return this.trips();
   };
