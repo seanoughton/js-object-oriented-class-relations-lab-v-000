@@ -24,6 +24,7 @@ class Driver {
   passengers(){
     //iterate through all of the trips and pull out the passenger for each
     let driversTrips = this.trips();
+    let driversPassengers = [];
     driversTrips.forEach(function(element){
 
     });
