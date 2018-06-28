@@ -40,10 +40,10 @@ class Trip {
     //array1.find(function(element) {
       //return element > 10;
 
-  
+  console.log(this.passengerId);
     return store.passengers.find(function(passenger){
       //return passenger.id === 18;
-      console.log(this.passengerId);
+      //console.log(this.passengerId);
     });
 
 
