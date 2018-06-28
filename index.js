@@ -18,9 +18,6 @@ class Driver {
   };
 
 //returns all of the passengers that a driver has taken on a trip
-//all trips by a driver, each trip contains the driverId and the passengerId
-//go through all of those trips and pull out the passenger,return the passenger for each trip
-
   passengers(){
     //iterate through all of the trips and pull out the passenger for each
     let driversTrips = this.trips();
