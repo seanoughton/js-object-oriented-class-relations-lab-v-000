@@ -1,5 +1,5 @@
 let driverId = 0;
-let store = [drivers:[]];
+let store = {drivers:[]};
 class Driver {
   constructor(name) {
     this.id = ++driverId;
