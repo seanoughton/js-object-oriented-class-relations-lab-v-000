@@ -38,7 +38,7 @@ class Passenger {
 
 //returns all of the drivers that has taken a passenger on a trip
   drivers(){
-
+    return this.trips().map(trip => trip.driver());
   };
 };
 
