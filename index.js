@@ -34,7 +34,7 @@ class Trip {
 
   passenger(){
     let answer = store.passengers.filter(item => {
-
+      return item.passengerId === this.passengerId;
     });
 
     return answer;
