@@ -33,6 +33,8 @@ class Trip {
   };
 
   passenger(){
+    return store.passengers.find(function(passenger) {
 
+    });
   };
 };
