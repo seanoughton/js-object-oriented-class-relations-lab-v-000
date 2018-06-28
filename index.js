@@ -24,7 +24,7 @@ class Driver {
   passengers(){
     //iterate through all of the trips and pull out the passenger for each
     driversTrips = this.trips();
-    console.log(this.trips());
+    console.log(driversTrips);
     return this.trips();
   };
 };
