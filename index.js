@@ -19,7 +19,7 @@ class Passenger {
   };
 };
 
-class trip {
+class Trip {
   constructor(driver,passenger) {
     this.id = ++tripId;
 
