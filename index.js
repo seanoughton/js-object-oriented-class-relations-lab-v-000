@@ -32,9 +32,9 @@ class Trip {
     store.trips.push(this);
   };
 
+console.log(this)
   passenger(){
     return store.passengers.find(function(passenger) {
-      console.log(this)
       return passenger.id === 18;//this.passengerId
     });
   }
