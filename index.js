@@ -25,7 +25,7 @@ class Driver {
     //iterate through all of the trips and pull out the passenger for each
     let driversTrips = this.trips();
     let test = driversTrips.filter(function(trip){
-
+      return trip.passenger;
     });
     console.log(driversTrips);
     return this.trips();
