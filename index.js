@@ -24,7 +24,6 @@ class Driver {
     driversTrips.forEach(function(trip){
       driversPassengers.push(trip.passenger())
     });
-    console.log(driversPassengers);
     return driversPassengers;
   };
 };
