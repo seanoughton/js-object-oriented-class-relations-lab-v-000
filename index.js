@@ -37,6 +37,6 @@ class Trip {
     return store.passengers.find(function(passenger) {
       return passenger.id === 18;//this.passengerId
     });
-  };
+  }
 
 };
