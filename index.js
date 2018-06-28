@@ -38,7 +38,7 @@ class Trip {
     //you want to be able to use that trip.passengerId to get the passenger object from the store
     //this.passengerId;
 
-    return store.passengers;
+    return store.passengers[0];
     //return store.passengers.find(function(passenger) {
       //return passenger.id === this.passengerId
     //});
