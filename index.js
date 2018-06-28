@@ -17,8 +17,8 @@ class Driver {
   };
 
 //returns all of the passengers that a driver has taken on a trip
-//get all of the trips for a passenger
-//filter that by driver id which would give you all of the trips that match a driver and a passenger 
+//get all of the trips for a passenger  passenger.trips()
+//filter that by driver id which would give you all of the trips that match a driver and a passenger
   passengers(){
     return store.trip;
   };
