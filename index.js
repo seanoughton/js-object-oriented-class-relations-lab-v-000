@@ -40,7 +40,7 @@ class Trip {
     //array1.find(function(element) {
       //return element > 10;
 
-    return store.passengers.find(function(element){
+    return store.passengers.find(function(passenger){
       return element === true;
     });
     //return store.passengers.find(function(passenger) {
