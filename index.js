@@ -27,7 +27,7 @@ class Driver {
     let test = driversTrips.filter(function(trip){
       return trip.passenger;
     });
-    console.log(driversTrips);
+    console.log(test);
     return this.trips();
   };
 };
