@@ -17,7 +17,7 @@ class Driver {
   };
 
   passengers(){
-    return store.passengers
+    return store.trip;
   };
 };
 
