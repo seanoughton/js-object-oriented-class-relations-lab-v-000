@@ -42,7 +42,7 @@ class Trip {
     return store.passengers.find(passenger => passenger.id === this.passengerId);
     //return store.passengers.find(function(passenger){
       //return passenger.id === this.passengerId;
-    //});
+    //}); DON'T KNOW WHY THIS IS NOT WORKING
     //return store.passengers.find(passenger => {
     //  return passenger.id === this.passengerId;
     //});
