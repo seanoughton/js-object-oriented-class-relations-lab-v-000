@@ -42,7 +42,7 @@ class Trip {
       //return passenger.id === this.passengerId;
     //});
     return store.passengers.find(passenger => {
-      return passenger.id === this.passengerId;
+      passenger.id === this.passengerId;
     });
   }
 
