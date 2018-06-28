@@ -33,10 +33,12 @@ class Trip {
   };
 
   passenger(){
-    let answer = store.passengers.filter(item => {
-      return item.passengerId === this.passengerId;
+    let answer = store.passengers.find(function(passenger){
+
     });
-    //a trip has a passengerId 
+    //a trip has a passengerId
+    //you want to be able to use that trip.passengerId to get the passenger object from the store
+    //
 
     return answer;
     //return store.passengers.find(function(passenger) {
