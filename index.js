@@ -19,7 +19,6 @@ class Driver {
 
 //returns all of the passengers that a driver has taken on a trip
   passengers(){
-    //iterate through all of the trips and pull out the passenger for each
     let driversTrips = this.trips();
     let driversPassengers = [];
     driversTrips.forEach(function(trip){
